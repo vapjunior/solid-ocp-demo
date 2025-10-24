@@ -1,0 +1,18 @@
+{
+  "name": "seu-usuario/ocp-crud",
+  "description": "CRUD simples em PHP 8 com SRP e refatoracao OCP (persistencia em arquivo .txt)",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "dump": "composer dump-autoload",
+    "serve": "php -S localhost:8000 -t public"
+  }
+}
