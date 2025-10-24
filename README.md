@@ -33,7 +33,7 @@ Projeto didático em PHP 8 que demonstra um CRUD simples de produtos, organizado
 1. **Clonar o repositório**
    ```bash
    git clone <url-do-repositorio>
-   cd solid-ocp-excercise
+   cd solid-ocp-demo
    ```
 
 2. **Instalar dependências e autoload**
